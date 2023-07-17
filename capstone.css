@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity value to control darkness */
+  z-index: -1;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1687215932307-7ad94021f3cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+nav, #landing-section {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
+}
+.navbar {
+  background-color: #14213d;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.nav-item {
+  font-size: 1.5em;
+}
+.navbar-toggler {
+  border: none;
+}
+.all-paragraph {
+  font-size: 1.5em;
+  text-align: justify;
+  margin-top: 1rem;
+}
+.my-name {
+  color: #fca311;
+}
+h2 {
+  color: #fca311;
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 18px;
+  }
+}
+#projects {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
+}
+#tools-section {
+ 
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
+}
+section h3 {
+  text-align: center;
+}
+h3, h5 {
+  font-size: 2rem;
+}
+#contact {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'VT323', monospace;
+  text-align: center;
+}
+.modal-content {
+  color: black;
+  margin: 0;
+}
+.modal-header {
+  border: none;
+}
+.modal-body {
+  border: none;
+}
+.modal-footer {
+  border: none;
+}
+.all-buttons {
+  color: white;
+  background-color: #0077b6;
+  margin: 1em;
+}
+.contact {
+  text-align: center;
+}
+.social-media-icons {
+  list-style: none;
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media-icons li {
+  margin: 0 10px;
+}
+.social-media-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0077b6;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
